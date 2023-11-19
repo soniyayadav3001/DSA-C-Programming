@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include<conio.h>
-// Function to merge two sorted arrays
+
 void merge(int arr[], int l, int m, int r) {
     int i, j, k;
     int n1 = m - l + 1;
@@ -44,19 +44,15 @@ void merge(int arr[], int l, int m, int r) {
 
 void mergeSort(int arr[], int l, int r) {
     if (l < r) {
-        // Find the middle point
+     
         int m = l + (r - l) / 2;
 
-        // Sort first and second halves
         mergeSort(arr, l, m);
         mergeSort(arr, m + 1, r);
-
-        // Merge the sorted halves
         merge(arr, l, m, r);
     }
 }
 
-// Driver code
 int main() {
     int arr[] = {6, 7, 1, 4, 5, 3, 2};
     int n = sizeof(arr) / sizeof(arr[0]);
