@@ -16,7 +16,7 @@ do
 printf("\n1.Insertion");
 printf("\n2.Deletion");
 printf("\n3.Display");
-printf("\n4.Enter Your Choice\n");
+printf("\nEnter Your Choice\n");
 scanf("%d",&choice);
 
 switch(choice)
@@ -30,7 +30,7 @@ break;
 default:printf("Invalid Choice\n");
 }
 fflush(stdin);
-printf("\n Do you want to continue\n");
+printf("\n Do you want to continue?\n");
 scanf("%c",&ch);
 }
 while((ch=='y')||(ch=='Y'));
