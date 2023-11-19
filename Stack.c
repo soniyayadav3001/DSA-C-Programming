@@ -58,7 +58,7 @@ printf("Stack is empty\n");
 else
 {
 item=stack[top];
-printf("\nThe deleted item is %d",&item);
+printf("\nThe deleted item is %d",item);
 top--;
 }
 }
