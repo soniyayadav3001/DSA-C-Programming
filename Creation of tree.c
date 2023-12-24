@@ -42,6 +42,7 @@ void in_order(struct tree *p){
         in_order(p->right);
     }
 }
+
 int main(){
     init();
     create_root(50);
