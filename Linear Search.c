@@ -10,7 +10,7 @@ scanf("%d",&search);
 for(i=0;i<=s;i++)
 {
 if(a[i]==search)
-{
+{ 
 count++;
 break;
 }
