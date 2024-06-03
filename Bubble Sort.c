@@ -23,7 +23,7 @@ int main()
         array[d+1] = swap;
       }
     }
-  }
+  } 
 
   printf("Sorted list in ascending order:\n");
 
