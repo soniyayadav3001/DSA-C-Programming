@@ -12,7 +12,7 @@ void traverse();
 void main()
 {
 do
-{
+{ 
 printf("\n1.Insertion");
 printf("\n2.Deletion");
 printf("\n3.Display");
