@@ -70,7 +70,7 @@ void post_order(struct tree *p)
         post_order(p->right);
         printf("%d\n", p->data);
     }
-}
+} 
 int main()
 {
     init();
