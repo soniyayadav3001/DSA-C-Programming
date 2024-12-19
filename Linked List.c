@@ -6,7 +6,6 @@ struct node
     struct node *next;   
 }; 
 struct node *head;  
-  
 void beginsert ();   
 void lastinsert ();  
 void randominsert();  
