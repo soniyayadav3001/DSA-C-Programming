@@ -18,7 +18,7 @@ int main()
             a[i] = a[min_index];
             a[min_index] = temp;
         }
-    }
+    } 
     printf("Sorted Array: ");
     for(i = 0; i < n; i++)  {
         printf(" %d", a[i]);
