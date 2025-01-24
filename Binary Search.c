@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 int main()
-{
+{ 
 int a[]={2,4,7,9,11,13,25};
 int mid,low,high,search,count=0;
 int location;
