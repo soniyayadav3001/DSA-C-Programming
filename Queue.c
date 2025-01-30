@@ -6,7 +6,7 @@ char ch;
 int front=-1;int rear=-1;
 int queue[MAX];
 void inqueue();
-void dequeue();
+void dequeue(); 
 void display();
 void main()
 {
