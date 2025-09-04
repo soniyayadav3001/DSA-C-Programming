@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main()
-{
+{ 
     int n = 10;
     int a[] = {3,2,6,5,4,7,8,9,5,1};
     int min_index;
