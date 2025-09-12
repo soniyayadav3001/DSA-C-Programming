@@ -23,7 +23,6 @@ low=mid+1;
 else
 high=mid-1;
 }
-
 if(count==1)
 printf(" Element is found at location== %d",location);
 else
